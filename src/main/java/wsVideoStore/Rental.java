@@ -28,6 +28,13 @@ public class Rental
 
   }
 
+  public int getPriceCode()
+  {
+
+    return movie.getPriceCode();
+
+  }
+
   public Movie getMovie()
   {
 

@@ -42,7 +42,7 @@ public class Customer
 			Rental 		each = (Rental)rentals.nextElement ();
 			
 			// determines the amount for each line
-            switch (each.getTitle().getPriceCode())
+            switch (each.getMovie().getPriceCode())
             {
 
 				case Movie.REGULAR:
