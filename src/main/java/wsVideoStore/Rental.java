@@ -24,7 +24,7 @@ public class Rental
   public int getDaysRented()
   {
 
-      return this.daysRented;
+      return daysRented;
 
   }
 
@@ -38,7 +38,7 @@ public class Rental
   public Movie getMovie()
   {
 
-      return this.movie;
+      return movie;
 
   }
 

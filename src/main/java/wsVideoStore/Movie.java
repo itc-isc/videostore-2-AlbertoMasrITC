@@ -26,6 +26,21 @@ public abstract class Movie
     public int getPriceCode()
     {
 
+        if(getTitle().toLowerCase().contains("regular"))
+            return REGULAR;
+        else
+            if(getTitle().toLowerCase().contains("new_release"))
+                return NEW_RELEASE;
+            else
+                if(getTitle().toLowerCase().contains("newrelease"))
+                    return NEW_RELEASE;
+                else
+                    if(getTitle().toLowerCase().contains("new release"))
+                        return NEW_RELEASE;
+                    else
+                    if(getTitle().toLowerCase().contains("childrens"))
+                        return CHILDRENS;
+
         return 0;
 
     }
